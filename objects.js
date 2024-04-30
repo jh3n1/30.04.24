@@ -1,16 +1,11 @@
-Class Object {
-   constructor (parametro1, parametro2) {
-    this.pinterest = pinterest;
-    this.pinterest2 = pinterest2;
-   }
+class Calebe {
+    constructor (pinterest) {
+        this.site = pinterest;
+    }
 
-   metodo1 () {
-    window.open(this.site);
-    window.open(this.pinterest);
-   }
-
-   metodo1 () {
-    window.open(this.site);
-    window.open(this.pinterest2);
-   }
+    exibirSite () {
+        window.open(this.site)
+    }
 }
+var novoCalebe = new Calebe ("https://br.pinterest.com/pin/13581236382167873/");
+novoCalebe.exibirSite();
